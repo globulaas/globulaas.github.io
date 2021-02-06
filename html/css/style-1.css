@@ -1,3 +1,37 @@
 body {
-    background:red;
+    background:thistle;
+    margin: 50px;
+}
+
+.nav {
+    text-align: center;
+    background-color: indigo;
+    font-size: 30pt;
+    font-family: Verdana;
+    color: lavender;
+}
+
+.div1 {
+    background-color: darkviolet;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.urok1{
+    font-family: verdana;
+    color: lavender;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 24pt;
+}
+
+.div11{
+    background-color: plum;
+    margin-right: 30px;
+}
+
+.urok11{
+    font-family: verdana;
+    font-size: 20;
+    color: indigo;
 }
