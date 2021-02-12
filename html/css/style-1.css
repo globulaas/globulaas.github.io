@@ -1,18 +1,18 @@
 body {
-    background:thistle;
+    background: powderblue;
     margin: 50px;
 }
 
 .nav {
     text-align: center;
-    background-color: indigo;
+    background-color: darkblue;
     font-size: 30pt;
     font-family: Verdana;
     color: lavender;
 }
 
 .div1 {
-    background-color: darkviolet;
+    background-color: blue;
     margin-right: 30px;
     text-align: center;
 }
@@ -26,12 +26,12 @@ body {
 }
 
 .div11{
-    background-color: plum;
+    background-color: steelblue;
     margin-right: 30px;
 }
 
 .urok11{
     font-family: verdana;
     font-size: 20;
-    color: indigo;
+    color: lavender;
 }
