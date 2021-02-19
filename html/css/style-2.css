@@ -1,0 +1,42 @@
+body {
+    background-image: url(../img/fon2.png);
+}
+
+.td1{
+    background-color: grey;
+    font-family: verdana;
+    font-size: 24pt;
+    padding: 10px;
+    margin: -10px;
+    text-align: center;
+}
+
+.td2{
+    background-color: darkgray ;
+    font-family: verdana;
+    font-size: 12pt;
+    padding: 10px;
+    margin: -5px;
+    text-align: center;
+}
+
+.img{
+    background-color: silver;
+    padding: 10px;
+    text-align: center;
+}
+
+.href{
+    background-color: darkgray;
+    font-family: verdana;
+    font-size: 12pt;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.u{
+    color: white;
+    text-align: center;
+}
