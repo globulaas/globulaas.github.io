@@ -1,0 +1,7 @@
+ul.ul > li {
+    color: red;
+}
+
+ul > li {
+    color: black;
+}
