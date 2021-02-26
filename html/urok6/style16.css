@@ -1,0 +1,35 @@
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+div:first-child{
+    background-color: silver;
+    padding: 10px;
+}
+
+div:nth-child(2){
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: lightgreen;
+}
+
+div:nth-child(3){
+    float: right;
+    width: 150px;
+    height: 250px;
+    background-color:lightgreen;
+}
+
+div:nth-child(4){
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: darkgray;
+}
+
+div:nth-child(5){
+    background-color: silver;
+}
