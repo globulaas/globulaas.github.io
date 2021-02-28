@@ -1,0 +1,244 @@
+.video{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vid{
+    max-width: 100vh;
+    overflow: hidden;
+}
+
+.head1{
+    background-color: darkgray;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-family: tahoma;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.head2{
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.head3{
+    background-color: darkgray;
+    position: absolute;
+    left: 800px;
+    top: 90px;
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.head4{
+    color: blue;
+}
+
+.plan1{
+    background-color: silver;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.img{
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.name1{
+    position: absolute;
+    top: 250px;
+    left: 140px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.plan2{
+    background-color: silver;
+    position: absolute;
+    top: 300px;
+    left: 540px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.name2{
+    position: absolute;
+    top: 250px;
+    left: 160px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.plan3{
+    background-color: silver;
+    position: absolute;
+    top: 300px;
+    left: 1030px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.name3{
+    position: absolute;
+    top: 250px;
+    left: 170px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.planet{
+    background-color: silver;
+    position: absolute;
+    left: 140px;
+    top: 180px;
+    border-radius: 30px;
+}
+
+.pimg{
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.headnp1{
+    color: gold;
+    top: 50px;
+    left: 700px;
+    position: absolute;
+    background-color: darkgray;
+    font-family: tahoma;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.text1{
+    position: absolute;
+    background-color: silver;
+    top: 240px;
+    left: 800px;
+    width: 500px;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text2{
+    position: absolute;
+    background-color: silver;
+    top: 280px;
+    left: 800px;
+    width: 500px;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text3{
+    position: absolute;
+    background-color: silver;
+    top: 250px;
+    left: 800px;
+    width: 500px;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.link1{
+    position: absolute;
+    top: 530px;
+    left: 970px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.link2{
+    position: absolute;
+    top: 515px;
+    left: 970px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.link3{
+    position: absolute;
+    top: 540px;
+    left: 970px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cur{
+    cursor: url(planet.cur), pointer !important;
+}
+
+.razrab{
+    background-color: dimgray;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-family: tahoma;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.razrabtext{
+    width: 600px;
+    background-color: silver;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-family: tahoma;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.linkraz{
+    position: absolute;
+    top: 380px;
+    left: 270px;
+    background-color: gray;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
