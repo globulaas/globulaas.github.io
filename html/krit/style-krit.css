@@ -39,17 +39,17 @@ body{
  }
 
 .header{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: safe center;
-    align-items: flex-start;
+    align-items: safe center;
 }
 
 .head1{
     text-align: center;
     background-color: darkgray;
-    margin-top: 50px;
     font-family: tahoma;
     font-size: 30px;
     padding: 20px;
@@ -68,7 +68,6 @@ body{
 
 .head3{
     background-color: darkgray;
-    margin-top: 90px;
     font-family: tahoma;
     font-size: 20px;
     padding: 10px;
@@ -82,7 +81,7 @@ body{
 .wrapper{
     display: flex;
     flex-wrap: wrap;
-    width: 31%;
+    width: 400px;
     padding-right: 20px;
 }
 
@@ -130,7 +129,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: safe center;
-    align-items: center;
+    align-items: safe center;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -162,6 +161,7 @@ body{
 }
 
 .text{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     background-color: silver;
@@ -222,6 +222,6 @@ body{
 .info{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: safe center;
     margin-top: 30px;
 }
