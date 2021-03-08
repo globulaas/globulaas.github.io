@@ -41,8 +41,8 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: safe center;
     align-items: flex-start;
 }
 
@@ -80,6 +80,8 @@ body{
 }
 
 .wrapper{
+    display: flex;
+    flex-wrap: wrap;
     width: 31%;
     padding-right: 20px;
 }
@@ -111,25 +113,26 @@ body{
 
 .name{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: row;
+    width: fit-content;
     justify-content: center;
     align-items: flex-end;
     background-color: gray;
     font-family: tahoma;
-    font-size: 25px;
+    font-size: larger;
     padding: 10px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .planet{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: safe center;
     align-items: center;
-    margin-top: 80px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .bcplanet{
@@ -144,26 +147,26 @@ body{
 }
 
 .headplanet{
-    margin-left: 600px;
-    margin-right: 600px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-top: 50px;
     color: gold;
+    width: fit-content;
     background-color: darkgray;
     font-family: tahoma;
     font-size: 30px;
     padding: 15px;
     border-radius: 20px;
+    margin-bottom: 80px;
 }
 
 .text{
     display: flex;
     align-items: center;
     background-color: silver;
-    width:fit-content;
-    max-height: 300px;
+    width:500px;
+    height:fit-content;
     font-family: tahoma;
     font-size: 25px;
     padding: 20px;
@@ -172,8 +175,7 @@ body{
 
 .link{
     display: flex;
-    margin-top: 50px;
-    margin-left: 700px;
+    margin: 0 auto;
     flex-direction: row;
     background-color: gray;
     font-family: tahoma;
@@ -194,7 +196,7 @@ body{
     top: 15px;
     left: 15px;
     font-family: tahoma;
-    font-size: 24px;
+    font-size: 120%;
     padding: 10px;
     border-radius: 10px;
 }
@@ -202,22 +204,24 @@ body{
 .razrabtext{
     width: 600px;
     background-color: silver;
-    position: absolute;
-    top: 50px;
-    left: 50px;
     font-family: tahoma;
     font-size: 24px;
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .linkraz{
-    position: absolute;
-    top: 400px;
-    left: 270px;
     background-color: gray;
     font-family: tahoma;
     font-size: 25px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
